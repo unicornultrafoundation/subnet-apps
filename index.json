@@ -7,6 +7,9 @@
     "logo": "",
     "banners_urls": [],
     "default_banner_index": 0,
-    "website": ""
+    "website": "",
+    "container": {
+      "image": "docker.io/library/nginx:stable-alpine3.20-perl"
+    }
   }
 ]

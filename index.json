@@ -4,5 +4,8 @@
     "symbol": "SU",
     "name": "Subnet Uptime",
     "description": "Subnet Uptime"
+    "logo": "",
+    "banners": [],
+    "default_banner": 0
   }
 ]

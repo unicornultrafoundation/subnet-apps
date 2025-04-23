@@ -20,5 +20,33 @@
         }
       }
     }
+  },
+  {
+    "id": 2,
+    "symbol": "U2DPN",
+    "name": "U2DPN",
+    "description": "U2DPN",
+    "logo": "https://raw.githubusercontent.com/unicornultrafoundation/subnet-apps/refs/heads/main/u2dpn/logo.png",
+    "banners_urls": [
+      "https://raw.githubusercontent.com/unicornultrafoundation/subnet-apps/refs/heads/main/u2dpn/banner.png",
+      "https://raw.githubusercontent.com/unicornultrafoundation/subnet-apps/refs/heads/main/u2dpn/banner_01.png",
+      "https://raw.githubusercontent.com/unicornultrafoundation/subnet-apps/refs/heads/main/u2dpn/banner_02.png",
+      "https://raw.githubusercontent.com/unicornultrafoundation/subnet-apps/refs/heads/main/u2dpn/banner_03.png",
+      "https://raw.githubusercontent.com/unicornultrafoundation/subnet-apps/refs/heads/main/u2dpn/banner_04.png"
+    ],
+    "default_banner_index": 0,
+    "website": "",
+    "container": {
+      "image": "lamdev01/peernode-amd64:develop",
+      "env": {
+        "PEER_ID": "${PEER_ID}"
+      },
+      "resources": {
+        "requests": {
+          "cpu": "1",
+          "memory": "1GB"
+        }
+      }
+    }
   }
 ]

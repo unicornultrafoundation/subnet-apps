@@ -41,6 +41,7 @@
       "env": {
         "PEER_ID": "${PEER_ID}"
       },
+      "command": ["run"],
       "resources": {
         "requests": {
           "cpu": "1",

@@ -37,7 +37,7 @@
     "default_banner_index": 0,
     "website": "",
     "container": {
-      "image": "lamdev01/peernode-amd64:develop",
+      "image": "lamdev01/peernode-amd64@sha256:366eedb38e68ae816069f29d5f11a1403189c1212b706053c48f8b157499a240",
       "env": {
         "PEER_ID": "${PEER_ID}"
       },

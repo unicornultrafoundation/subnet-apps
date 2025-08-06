@@ -25,8 +25,8 @@
                     "/data"
                 ],
                 "env": [
-                    "MINIO_ROOT_USER=minioadmin",
-                    "MINIO_ROOT_PASSWORD=minioadmin123",
+                    "MINIO_ROOT_USER=${MINIO_ROOT_USER}",
+                    "MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD}",
                     "MINIO_CONSOLE_ADDRESS=:9090"
                 ],
                 "expose": [
